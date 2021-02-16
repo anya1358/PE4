@@ -27,6 +27,17 @@ void DisplayBoard(int arr[][]){
     }
 }
 
+void PlaceMarker(int currArr[][], int markerArr[][]) {
+    for(int i = 0; i < 3; i ++) {
+        for(int j = 0; j < 3; j++) {
+            currArr[i][j] = markerArr[i][j];   
+        }
+        
+    }
+    
+    return currArr;
+}
+
 int main() {
   
   CreateBoard();
