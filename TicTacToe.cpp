@@ -27,6 +27,23 @@ void DisplayBoard(int arr[][]){
     }
 }
 
+int GetPlayerChoice(){
+    int answer;
+    bool goodanswer = false;
+    std::cout << "Please choose where you would like to place your marker (1-9): ";
+    while(!goodanswer){
+        cin >> answer;
+        if(answer > 9 || answer < 1){
+            std::cout << std::endl;
+            std::cout << "Invalid location, please choose a location 1-9: ";
+        }
+        else{
+            goodanswer = true;
+        }
+    }
+    return answer;
+}
+
 int main() {
   
   CreateBoard();
