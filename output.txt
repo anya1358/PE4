@@ -1,0 +1,42 @@
+Here are the locations on the board: 
+1 | 2 | 3
+----------
+4 | 5 | 6
+----------
+7 | 8 | 9
+
+  |   |  
+----------
+  |   |  
+----------
+  |   |  
+Please choose where you would like to place your marker (1-9): 9
+  |   |  
+----------
+  |   |  
+----------
+  |   | X
+Please choose where you would like to place your marker (1-9): 1
+O |   |  
+----------
+  |   |  
+----------
+  |   | X
+Please choose where you would like to place your marker (1-9): 6
+O |   |  
+----------
+  |   | X
+----------
+  |   | X
+Please choose where you would like to place your marker (1-9): 5
+O |   |  
+----------
+  | O | X
+----------
+  |   | X
+Please choose where you would like to place your marker (1-9): 3
+O |   | X
+----------
+  | O | X
+----------
+  |   | X
