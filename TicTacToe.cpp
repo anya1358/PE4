@@ -97,7 +97,16 @@ int GetPlayerChoice(){
 
 int main() {
   DisplayLocations();
-  CreateBoard();
+  int *b = CreateBoard();
+  for(int i = 0; i < 9; i++){
+    int loc = GetPlayerChoice();
+    if(i % 2 == 0 || i == 0){
+        PlaceMarker(loc, "X", b)
+    }
+    else{
+        PlaceMarker(loc, "O", b)
+    }
+  }
 
   return 0;
 }
